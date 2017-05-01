@@ -3,11 +3,11 @@
 <title>Sam Mee Gin Lank</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAu9nyACo5awAMHlkAbrXwAJ3N9QDpzfcA5O31AH5C7QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzMAAAADNFVVVDMAADRFV3dVRDAANFVzg3UUMAA0VVc3VVQwADRTJVUyVDAANFM1VTNUMAADRVVVVVMAADNFVVVVUzADZkRVVVVWYwNGMzMzMzZDA0QwAAAANEMAMwAAAAADMAAAAAAAAAAAAAAAAAAAAAD//wAA+A8AAOADAADAAQAAwAEAAMABAADAAQAAwAEAAOADAADAAQAAgAAAAIAAAACH8AAAz/kAAP//AAD//wAA" rel="icon" type="image/x-icon" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
 html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 body, html {
@@ -17,13 +17,90 @@ body, html {
 }
 </style>
 <body class="w3-theme-l5">
-    <!-- Logo Text -->
-    <div class="w3-display-container w3-opacity-min" id="head">
-    <img src="1.jpg" alt="JPG" style="width:100%;min-height:350px;max-height:600px;">
-      <div class="w3-display-middle" style="white-space:nowrap;">
-        <span class="w3-center w3-padding-large w3-black w3-xxxlarge w3-wide w3-animate-opacity">- ติ่มซำชาบูระ -</span>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top w3-row ">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar  w3-padding">
+      <a href="https://waranyu.github.io/Home/" class=" w3-button "><i class="fa fa-home"></i> หน้าแรก</a>
       </div>
-    </div>
+
+
+
+       <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar  w3-padding">
+        <button class=" w3-button  " title="More"><i class="fa fa-cutlery"></i> ร้านอาหาร <i class="fa fa-caret-down"></i> </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">ครัว ปะ-หยัด</a>
+          <a href="https://waranyu.github.io/hokkaido/" class="w3-bar-item w3-button">ฮอกไกโด</a>
+          <a href="https://waranyu.github.io/padthai/" class="w3-bar-item w3-button">ผัดไทย กระเพาะปลา ไทยอาคาร</a>
+          <a href="https://waranyu.github.io/joke/" class="w3-bar-item w3-button">โจ๊กหม้อเดิบ</a>
+          <a href="https://waranyu.github.io/chabura/" class="w3-bar-item w3-button">ติ่มซำชาบูระ</a>
+        </div>
+      </div>
+
+
+
+      <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar w3-padding">
+        <button class="w3-button" title="More"><i class="fa fa-th"></i> หมวดหมู่อาหาร <i class="fa fa-caret-down"></i> </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="https://waranyu.github.io/snack/" class="w3-bar-item w3-button">อาหารว่าง</a>
+          <a href="https://waranyu.github.io/main-course/" class="w3-bar-item w3-button">อาหารจานหลัก</a>
+          <a href="https://waranyu.github.io/Dessert/" class="w3-bar-item w3-button">เครื่องดื่มและของหวาน</a>
+         </div>
+      </div>
+
+  </div>
+
+  </div>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top w3-row ">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar  w3-padding">
+      <a href="https://waranyu.github.io/Home/" class=" w3-button "><i class="fa fa-home"></i> หน้าแรก</a>
+      </div>
+
+
+
+       <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar  w3-padding">
+        <button class=" w3-button  " title="More"><i class="fa fa-cutlery"></i> ร้านอาหาร <i class="fa fa-caret-down"></i> </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">ครัว ปะ-หยัด</a>
+          <a href="https://waranyu.github.io/hokkaido/" class="w3-bar-item w3-button">ฮอกไกโด</a>
+          <a href="https://waranyu.github.io/padthai/" class="w3-bar-item w3-button">ผัดไทย กระเพาะปลา ไทยอาคาร</a>
+          <a href="https://waranyu.github.io/joke/" class="w3-bar-item w3-button">โจ๊กหม้อเดิบ</a>
+          <a href="https://waranyu.github.io/chabura/" class="w3-bar-item w3-button">ติ่มซำชาบูระ</a>
+        </div>
+      </div>
+
+
+
+      <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar w3-padding">
+        <button class="w3-button" title="More"><i class="fa fa-th"></i> หมวดหมู่อาหาร <i class="fa fa-caret-down"></i> </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="https://waranyu.github.io/snack/" class="w3-bar-item w3-button">อาหารว่าง</a>
+          <a href="https://waranyu.github.io/main-course/" class="w3-bar-item w3-button">อาหารจานหลัก</a>
+          <a href="https://waranyu.github.io/Dessert/" class="w3-bar-item w3-button">เครื่องดื่มและของหวาน</a>
+         </div>
+      </div>
+
+  </div>
+
+  </div>
+    <!-- Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <img src="1.jpg" alt="JPG" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">- ติ่มซำชาบูระ -</span>
+  </div>
+</div>
+
 <!-- Page Container -->
 <div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
   <!-- The Grid -->
@@ -40,7 +117,12 @@ body, html {
       </div>
       </div>
       <br>
-
+      <!-- Accordion -->
+            <div class="w3-card-2 w3-round">
+              <div class="w3-white">
+                <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i><a href="https://waranyu.github.io/aboutus/." class="w3-bar-item w3-button">About Us</a></button>
+              </div>
+            </div>
     <!-- End Left Column -->
     </div>
 
@@ -52,7 +134,7 @@ body, html {
           <div class="w3-card-2 w3-round w3-white">
             <div class="w3-container w3-padding">
               <h6 class="w3-opacity">"หลากหลายเมนูในตอนเช้า เหมาะกับการรับประทานพร้อมครอบครัว"</h6>
-              <p class="w3-border w3-padding">ร้านติ่มซำอิสลาม รองรับได้ทั้งไทยพุทธิ มุสลิม เปิดมาประมาณสองปี โดยมีความหลากหลายของติ่มซำ เมนูอาหารเช้าอื่นๆนอกเหนือจากติ่มซำ</p>
+              <p contenteditable="true" class="w3-border w3-padding">ร้านติ่มซำอิสลาม รองรับได้ทั้งไทยพุทธิ มุสลิม เปิดมาประมาณสองปี โดยมีความหลากหลายของติ่มซำ เมนูอาหารเช้าอื่นๆนอกเหนือจากติ่มซำ</p>
             </div>
           </div>
         </div>
@@ -62,29 +144,30 @@ body, html {
         <h4>ติ่มซำ</h4><br>
         <hr class="w3-clear">
         <p>อาหารตระกูลจีนที่อิสลามสามารถทานได้ เนื่องด้วยวัตถุดิบที่คัดสรรมาให้ผ่านมาตรฐานฮาลาล ความใส่ใจของเจ้าของร้าน และความพิถีพิถันในการสรรสร้างให้อาหารน่าดึงดูด เมนูติ่มซำนี้มีความหลากหลายค่อนข้างมาก ทั้งขนมจีบหลายรส  ซาลาเปาหรือแม้กระทั่งหมั่นโถว โดยอาหารทั้งหมดนี้ถ้าหากได้ทานควบคู่กับน้ำจิ้มสูตรเฉพาะของทางร้านเองจะทำให้ความอร่อยเพิ่มขึ้นจนต้องกลับมาทานอีกหน</p>
-          <div class="w3-row-padding" style="margin:0 -16px">
-            <div class="w3-half">
-              <img src="4.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
-            </div>
-            <div class="w3-half">
-              <img src="2.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
+        <div class="w3-row w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="4.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ติ่มซำ" width="280" height="210">
           </div>
-          <div class="w3-half">
-            <img src="3.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="2.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ติ่มซำ" width="280" height="210">
           </div>
-          <div class="w3-half">
-            <img src="5.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="3.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ติ่มซำ" width="280" height="210">
+          </div>
+          <div class="w3-quarter w3-center w3-half">
+            <img src="5.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ติ่มซำ" width="280" height="210">
+          </div>
         </div>
         </div>
-      </div>
+
 
       <div class="w3-container w3-card-2 w3-white w3-round w3-margin"><br>
         <h4>ชิกกุ๊ดเต๋ หรือบะกุ๊ดเต๋ที่ไม่ใช่เนื้อหมู</h4><br>
         <hr class="w3-clear">
         <p>เนื่องจากทางร้านเป็นอาหารที่อิสลามสามารถทานได้ ทำให้ทางร้านได้คิดค้นสูตรเฉพาะของทางร้าน ซึ่งมีความเข้มข้นของน้ำบะกุ๊ดเต๋ เนื้อไก่ที่เปื่อยนุ่มละมุน และเครื่องปรุงที่ส่งกลิ่นหอมกรุ่นชวนชิม</p>
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="6.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="6.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ชิกกุ๊ดเต๋ หรือบะกุ๊ดเต๋ที่ไม่ใช่เนื้อหมู" width="280" height="210">
           </div>
         </div>
       </div>
@@ -93,9 +176,9 @@ body, html {
         <h4>บ๊ะจ่าง</h4><br>
         <hr class="w3-clear">
         <p>ข้าวเหนียวเนื้อนุ่มที่สอดไส้ด้วยเนื้อไก่สับ เห็ดหอม และพริกไทย คละเคล้ากัน มีความเหนียวนุ่มจากข้าวเหนียวที่ผ่านการนึ่งมาใหม่ๆ และความสดใหม่ของเนื้อเห็ด ไก่สับมีความกลมกล่อมเข้ากันดีกับเครื่องปรุงที่สอดไส้ในข้าวเหนียว</p>
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="7.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="7.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="บ๊ะจ่าง" width="280" height="210">
           </div>
         </div>
       </div>
@@ -104,9 +187,9 @@ body, html {
         <h4>ไข่กระทะ</h4><br>
         <hr class="w3-clear">
         <p>ไข่กระทะร้อนๆที่มีไก่เชียงและไก่สับโรยหน้า พร้อมด้วยเห็ดหอมและแครอทเพิ่มสีสดใส ไข่แดงมีความเยิ้มๆแบบไข่ยางมะตูม เมื่อกินรวมกับเครื่องปรุงปะหน้ามีรสชาติที่เข้ากันได้อย่างพอเหมาะ</p>
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="9.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="9.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ไข่กระทะ" width="280" height="210">
           </div>
         </div>
       </div>
@@ -114,10 +197,10 @@ body, html {
       <div class="w3-container w3-card-2 w3-white w3-round w3-margin"><br>
         <h4>โรตีชีส</h4><br>
         <hr class="w3-clear">
-        <p>สาวกชีสต้องได้ลิ้มลอง กับความแปลกใหม่ที่เอามาผสมผสานกับความดั้งเดิมของโรตีอาหารพื้นเมืองของชาวมุสลิม เมนูนี้เป็นเมนูแนะนำของทางร้าน ด้วยความแปลกใหม่และความเข้ากันของชีสกับโรตีทำให้ได้รสชาติที่แปลกไป เหมาะสมแล้วที่เป้นเมนูแนะนำของทางร้านเอง</p>
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="10.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+        <p>lสาวกชีสต้องได้ลิ้มลอง กับความแปลกใหม่ที่เอามาผสมผสานกับความดั้งเดิมของโรตีอาหารพื้นเมืองของชาวมุสลิม เมนูนี้เป็นเมนูแนะนำของทางร้าน ด้วยความแปลกใหม่และความเข้ากันของชีสกับโรตีทำให้ได้รสชาติที่แปลกไป เหมาะสมแล้วที่เป้นเมนูแนะนำของทางร้านเอง</p>
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="10.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="โรตีชีส" width="280" height="210">
           </div>
         </div>
       </div>
@@ -126,12 +209,12 @@ body, html {
         <h4>เครื่องดื่ม</h4><br>
         <hr class="w3-clear">
         <p>เครื่องดื่มที่อยากแนะนำคือ นมแพะ คือดีงามมากในส่วนนี้ เพราะไม่ได้หากินได้ง่ายๆ ในส่วนเครื่องดื่มอื่นๆก็มีหลากหลาย ทั้งเมนูชา ทั้งแบบร้อนและแบบเย็นให้ได้ลิ้มลองกัน</p>
-          <div class="w3-row-padding" style="margin:0 -16px">
-            <div class="w3-half">
-              <img src="8.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
-            </div>
-            <div class="w3-half">
-              <img src="11.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="8.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="นมแพะ" width="280" height="210">
+          </div>
+          <div class="w3-quarter w3-center w3-half">
+            <img src="11.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="เมนูชา" width="280" height="210">
           </div>
         </div>
       </div>
@@ -156,6 +239,18 @@ body, html {
       </div>
       <br>
 
+      <div class="w3-card-2 w3-round w3-white w3-center">
+              <div class="w3-container">
+                <p>Location</p>
+                <div class="w3-row w3-row-padding" style="margin:0 -10px">
+                  <div class="w3-quarter w3-half">
+                    <img src="15.png" class="w3-container"  onclick="onClick(this)" alt="Location" width="300" height="220">
+                  </div>
+                </div>
+                </div>
+              </div>
+
+            <br>
 
     <!-- End Right Column -->
     </div>
@@ -167,30 +262,38 @@ body, html {
 </div>
 <br>
 
+<!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <script>
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+      }
+  }
+  </script>
 
 <script>
-// Accordion
-function myFunction(id) {
-    var x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-        x.previousElementSibling.className += " w3-theme-d1";
-    } else {
-        x.className = x.className.replace("w3-show", "");
-        x.previousElementSibling.className =
-        x.previousElementSibling.className.replace(" w3-theme-d1", "");
-    }
+
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
 }
 
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
 </script>
 
 </body>
